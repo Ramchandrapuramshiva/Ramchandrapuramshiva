@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="300" fill="none">
+  <defs>
+    <style>
+      .card-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; rx: 10; }
+      .header-bg { fill: #161b22; }
+      .text-title { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; fill: #8b949e; font-weight: 600; }
+      .node-text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; font-weight: 600; }
+      .node-sub { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 9px; fill: #8b949e; }
+      .flow-line { stroke: #30363d; stroke-width: 2; stroke-dasharray: 4 3; }
+      .flow-line-active { stroke: #3fb950; stroke-width: 2; stroke-dasharray: 6 3; animation: flow 2s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -18; } }
+    </style>
+    <linearGradient id="glow-cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#161b22" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="glow-purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#161b22" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="glow-green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#161b22" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect class="card-bg" x="1" y="1" width="398" height="298" />
+
+  <!-- Header -->
+  <path d="M1 10C1 5.02944 5.02944 1 10 1H390C394.971 1 399 5.02944 399 10V32H1V10Z" class="header-bg" />
+  <line x1="1" y1="32" x2="399" y2="32" stroke="#30363d" stroke-width="1" />
+  
+  <circle cx="16" cy="16" r="4.5" fill="#ff5f56" />
+  <circle cx="30" cy="16" r="4.5" fill="#ffbd2e" />
+  <circle cx="44" cy="16" r="4.5" fill="#27c93f" />
+  <text x="64" y="20" class="text-title">pipeline :: ai-systems-architecture.v2</text>
+
+  <!-- Connecting Lines -->
+  <line x1="200" y1="88" x2="200" y2="110" class="flow-line-active" />
+  <line x1="200" y1="158" x2="200" y2="180" class="flow-line-active" />
+  <line x1="200" y1="228" x2="200" y2="248" class="flow-line-active" />
+
+  <!-- Node 1: User Intent / Interaction -->
+  <g transform="translate(40, 46)">
+    <rect x="0" y="0" width="320" height="42" rx="6" fill="url(#glow-cyan)" stroke="#58a6ff" stroke-width="1.2" />
+    <text x="16" y="20" class="node-text" fill="#58a6ff">01. INGESTION &amp; MULTIMODAL INPUT</text>
+    <text x="16" y="34" class="node-sub">Natural Voice • Structured Data • Prompts &amp; Context</text>
+  </g>
+
+  <!-- Node 2: LLM & Reasoning Engine -->
+  <g transform="translate(40, 114)">
+    <rect x="0" y="0" width="320" height="44" rx="6" fill="url(#glow-purple)" stroke="#bc8cff" stroke-width="1.2" />
+    <text x="16" y="21" class="node-text" fill="#d2a8ff">02. LLM ORCHESTRATION &amp; REASONING</text>
+    <text x="16" y="36" class="node-sub">Gemini API • Prompt Engineering • Context Windows</text>
+  </g>
+
+  <!-- Node 3: Intelligent Agents & Tool Execution -->
+  <g transform="translate(40, 184)">
+    <rect x="0" y="0" width="320" height="44" rx="6" fill="url(#glow-green)" stroke="#3fb950" stroke-width="1.2" />
+    <text x="16" y="21" class="node-text" fill="#7ee787">03. AUTONOMOUS AGENTS &amp; ACTIONS</text>
+    <text x="16" y="36" class="node-sub">Function Calling • Automation Pipelines • API Integration</text>
+  </g>
+
+  <!-- Node 4: Production Web Ecosystem -->
+  <g transform="translate(40, 252)">
+    <rect x="0" y="0" width="320" height="36" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.2" />
+    <text x="16" y="18" class="node-text" fill="#e6edf3">04. FULL-STACK INTERFACE &amp; CLIENT</text>
+    <text x="16" y="30" class="node-sub">React • Next.js • TypeScript • Tailwind CSS • Vercel</text>
+  </g>
+</svg>

@@ -1,24 +1,49 @@
 <!--
 ====================================================================
-SHIVA RAMCHANDRAPURAM - PREMIUM GITHUB PROFILE COMMAND CENTER
+SHIVA RAMCHANDRAPURAM — PREMIUM DEVELOPER PROFILE COMMAND CENTER
 ====================================================================
 -->
 
 <div align="center">
+
+# Shiva Ramchandrapuram — Focus Stream
+### `Interactive Developer Terminal & AI Systems Dashboard`
 
   <!-- Dynamic Typing Header Banner -->
   <a href="https://github.com/Ramchandrapuramshiva">
     <img src="assets/typing-header.svg" alt="Shiva Ramchandrapuram - Focus Stream" width="100%" />
   </a>
 
-  <br />
+  <br /><br />
 
-  <!-- Animated Developer Terminal GIF -->
+  <!-- Live Contribution Snake Animation at Top Dashboard -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ramchandrapuramshiva/Ramchandrapuramshiva/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ramchandrapuramshiva/Ramchandrapuramshiva/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake Animation" src="assets/contribution-snake-preview.svg" width="100%">
+  </picture>
+
+  <br /><br />
+
+  <!-- Animated Developer Terminal Simulation GIF -->
   <img src="assets/terminal-animation.gif" alt="Interactive Developer Terminal - Shiva Ramchandrapuram" width="100%" />
 
 </div>
 
 <br />
+
+```text
+  ██████╗ ██╗  ██╗██╗██╗   ██╗ █████╗     ██████╗ ███████╗██╗   ██╗
+  ██╔════╝ ██║  ██║██║██║   ██║██╔══██╗    ██╔══██╗██╔════╝██║   ██║
+  ███████╗ ███████║██║██║   ██║███████║    ██║  ██║█████╗  ██║   ██║
+  ╚════██║ ██╔══██║██║╚██╗ ██╔╝██╔══██║    ██║  ██║██╔══╝  ╚██╗ ██╔╝
+  ███████║ ██║  ██║██║ ╚████╔╝ ██║  ██║    ██████╔╝███████╗ ╚████╔╝ 
+  ═══════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═╝  ╚═╝    ══════╝ ╚══════╝  ╚═══╝  
+  [SYSTEM]: AI Engineer in Progress & Full-Stack Developer
+  [MISSION]: Architecting generative AI applications, intelligent agents & web ecosystems
+```
+
+---
 
 ### `// 01. EXECUTIVE OVERVIEW`
 
@@ -63,8 +88,8 @@ identity:
 <table>
   <thead>
     <tr>
-      <th width="65%">Project, Stack & Highlights</th>
-      <th width="35%">Repository & Status</th>
+      <th width="65%">Project Architecture & Description</th>
+      <th width="35%">Repository & Deployment</th>
     </tr>
   </thead>
   <tbody>
@@ -72,51 +97,53 @@ identity:
       <td>
         <b>🎬 CineStream</b><br />
         <sub><code>React</code> • <code>TypeScript</code> • <code>Vite</code> • <code>Tailwind CSS</code> • <code>TMDB API</code></sub><br /><br />
-        Modern entertainment & movie discovery platform inspired by streaming interfaces. Features dynamic catalog exploration, responsive media grids, smooth UI transitions, and modular component architecture.
+        A Netflix-inspired entertainment and movie discovery platform featuring movie catalog browsing, responsive media grids, and a modern viewing-discovery experience.
       </td>
       <td valign="top">
-        <a href="https://github.com/Ramchandrapuramshiva/cinestream"><b>Code Repository ➜</b></a><br /><br />
-        <img src="https://img.shields.io/badge/Status-Code_Ready-2ea44f?style=flat-square" alt="Code Ready" /><br />
-        <sub><i>Live deployment undergoing update</i></sub>
+        <a href="https://github.com/Ramchandrapuramshiva/cinestream"><b>Code Repository ➜</b></a><br />
+        <a href="https://cinestream-iota-snowy.vercel.app"><b>Live Application ➜</b></a><br /><br />
+        <img src="https://img.shields.io/badge/Status-Code_Ready-2ea44f?style=flat-square" alt="Status: Code Ready" /><br />
+        <sub><i>Deployment refresh scheduled</i></sub>
       </td>
     </tr>
     <tr>
       <td>
-        <b>🩺 MediLens AI (MediTrack AI)</b><br />
+        <b>🩺 MediLens AI / MediTrack AI</b><br />
         <sub><code>JavaScript</code> • <code>AI Assistant</code> • <code>Health Informatics</code></sub><br /><br />
-        AI healthcare diagnostic assistant designed to analyze handwritten prescriptions, extract clinical insights from medical reports, and clarify medication guidance with conversational AI safety guardrails.
+        AI-assisted healthcare information application designed to clarify medication guidance, summarize medical report structure, and provide accessible health information with safety guardrails.
       </td>
       <td valign="top">
-        <a href="https://github.com/Ramchandrapuramshiva/medilens-ai"><b>Code Repository ➜</b></a><br /><br />
-        <img src="https://img.shields.io/badge/Status-Code_Ready-2ea44f?style=flat-square" alt="Code Ready" /><br />
-        <sub><i>Live deployment undergoing update</i></sub>
+        <a href="https://github.com/Ramchandrapuramshiva/medilens-ai"><b>Code Repository ➜</b></a><br />
+        <a href="https://medilens-ai-five.vercel.app"><b>Live Application ➜</b></a><br /><br />
+        <img src="https://img.shields.io/badge/Status-Code_Ready-2ea44f?style=flat-square" alt="Status: Code Ready" /><br />
+        <sub><i>Deployment refresh scheduled</i></sub>
       </td>
     </tr>
     <tr>
       <td>
         <b>🎙️ V1 AI Voice Assistant</b><br />
-        <sub><code>Python</code> • <code>Speech-to-Text</code> • <code>LLM Reasoning</code> • <code>Voice Synthesis</code></sub><br /><br />
-        Conversational intelligent voice agent engineered for real-time natural speech processing and multi-turn dialogue comprehension.
+        <sub><code>Python</code> • <code>Speech Recognition</code> • <code>LLM Reasoning</code> • <code>Speech Synthesis</code></sub><br /><br />
+        A voice-first AI assistant in active development, focused on natural-language interaction, multi-turn conversations, and hands-free assistance.
         <br />
-        <sub>• <b>Architecture & Audio Pipeline:</b> Designed & Tested</sub><br />
-        <sub>• <b>Desktop Automation & Streaming:</b> In Active Development</sub>
+        <sub>• <b>Audio Architecture & Chaining:</b> Implemented & Tested</sub><br />
+        <sub>• <b>Streaming Dialogue & Local Automation:</b> Planned in active sprint</sub>
       </td>
       <td valign="top">
-        <b>[Private Pipeline]</b><br /><br />
-        <img src="https://img.shields.io/badge/Status-In_Development-e3b341?style=flat-square" alt="In Development" /><br />
-        <sub><i>Active R&D Phase</i></sub>
+        <a href="https://github.com/Ramchandrapuramshiva/V1"><b>Code Repository ➜</b></a><br /><br />
+        <img src="https://img.shields.io/badge/Status-IN_DEVELOPMENT-e3b341?style=flat-square" alt="Status: IN DEVELOPMENT" /><br />
+        <sub><i>Private testing pipeline</i></sub>
       </td>
     </tr>
     <tr>
       <td>
         <b>💎 Modern Web Portfolio Ecosystem</b><br />
         <sub><code>React</code> • <code>Vite</code> • <code>TypeScript</code> • <code>Tailwind CSS</code> • <code>UX Design</code></sub><br /><br />
-        High-performance responsive web experience featuring bespoke editorial styling, fluid scrolling animations, modern typography, and optimized asset delivery.
+        High-performance responsive web platforms featuring bespoke editorial styling, fluid scrolling animations, modern typography, and optimized asset delivery.
       </td>
       <td valign="top">
-        <a href="https://github.com/Ramchandrapuramshiva/pariha-pedda-portfolio"><b>Code Repository ➜</b></a><br /><br />
+        <a href="https://github.com/Ramchandrapuramshiva/pariha-pedda-portfolio"><b>Code Repository ➜</b></a><br />
         <a href="https://pariha-pedda-portfolio.vercel.app"><b>Live Application ➜</b></a><br /><br />
-        <img src="https://img.shields.io/badge/Status-Live-2ea44f?style=flat-square" alt="Live Status" />
+        <img src="https://img.shields.io/badge/Status-Live-2ea44f?style=flat-square" alt="Status: Live" />
       </td>
     </tr>
   </tbody>
@@ -124,22 +151,7 @@ identity:
 
 ---
 
-### `// 04. CONTRIBUTION PIPELINE & CODE ACTIVITY`
-
-<!-- Dynamic Contribution Snake Animation Generated via Platane/snk -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ramchandrapuramshiva/Ramchandrapuramshiva/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ramchandrapuramshiva/Ramchandrapuramshiva/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake Animation" src="assets/contribution-snake-preview.svg" width="100%">
-  </picture>
-</div>
-
-<br />
-
----
-
-### `// 05. GITHUB TELEMETRY & ACTIVITY METRICS`
+### `// 04. GITHUB TELEMETRY & ACTIVITY METRICS`
 
 <div align="center">
   <a href="https://github.com/Ramchandrapuramshiva">
@@ -155,12 +167,41 @@ identity:
 
 ---
 
+### `// 05. ABOUT ME — TERMINAL PORTFOLIO STYLE`
+
+<table>
+  <tr>
+    <td width="55%" valign="top">
+      <h3><code>shiva@dev-station:~$ cat about_me.md</code></h3>
+      <p>
+        I am <b>Shiva Ramchandrapuram</b>, an <b>AI Engineer in progress</b> and <b>Full-Stack Developer</b> dedicated to building intelligent applications, generative AI systems, and modern web products.
+      </p>
+      <p>
+        <b>🎯 Current Focus &amp; Degree:</b><br />
+        Advancing through Computer Science and Systems engineering, specializing in LLM application architecture, multimodal pipelines, prompt engineering, and autonomous agent coordination.
+      </p>
+      <p>
+        <b>⚡ Engineering Philosophy:</b><br />
+        <i>"Learning by building real-world projects."</i> Rather than just studying theoretical models, I construct functional web applications and AI tools, testing them in real environments to master architecture and reliability.
+      </p>
+      <p>
+        <b>🚀 Active Systems:</b><br />
+        Building and maintaining streaming discovery interfaces (<b>CineStream</b>), diagnostic health assistants (<b>MediLens AI</b>), conversational voice agents (<b>V1</b>), and tailored high-performance portfolios.
+      </p>
+    </td>
+    <td width="45%" align="center" valign="middle">
+      <img src="assets/ai-architecture-card.svg" alt="AI Systems Architecture Pipeline" width="100%" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ### `// 06. CONNECT & COLLABORATE`
 
 ```bash
-$ ping -c 1 shiva.dev
-64 bytes from Ramchandrapuramshiva: icmp_seq=1 ttl=64 time=0.042 ms
---- status: open for collaborations on AI engineering, LLM products, and full-stack software.
+shiva@github:~$ connect --with-collaborators
+Status: Open to learning, collaboration, and building practical AI-powered software.
 ```
 
 <div align="center">
