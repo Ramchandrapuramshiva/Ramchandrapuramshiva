@@ -63,62 +63,60 @@ identity:
 <table>
   <thead>
     <tr>
-      <th width="40%">Project & Architecture</th>
-      <th width="40%">Description & Highlights</th>
-      <th width="20%">Links</th>
+      <th width="65%">Project, Stack & Highlights</th>
+      <th width="35%">Repository & Status</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <b>🎬 CineStream</b><br />
-        <sub><code>React</code> • <code>TypeScript</code> • <code>Vite</code> • <code>Tailwind CSS</code> • <code>TMDB API</code></sub>
+        <sub><code>React</code> • <code>TypeScript</code> • <code>Vite</code> • <code>Tailwind CSS</code> • <code>TMDB API</code></sub><br /><br />
+        Modern entertainment & movie discovery platform inspired by streaming interfaces. Features dynamic catalog exploration, responsive media grids, smooth UI transitions, and modular component architecture.
       </td>
-      <td>
-        High-performance Netflix-style entertainment and movie discovery platform. Features dynamic catalog querying, responsive media grids, smooth UI transitions, and modular component architecture.
-      </td>
-      <td>
-        <a href="https://github.com/Ramchandrapuramshiva/cinestream"><b>Code Repository</b></a><br />
-        <a href="https://cinestream-iota-snowy.vercel.app"><b>Live Application</b></a>
+      <td valign="top">
+        <a href="https://github.com/Ramchandrapuramshiva/cinestream"><b>Code Repository ➜</b></a><br /><br />
+        <img src="https://img.shields.io/badge/Status-Code_Ready-2ea44f?style=flat-square" alt="Code Ready" /><br />
+        <sub><i>Live deployment undergoing update</i></sub>
       </td>
     </tr>
     <tr>
       <td>
         <b>🩺 MediLens AI (MediTrack AI)</b><br />
-        <sub><code>JavaScript</code> • <code>AI Assistant</code> • <code>Health Informatics</code> • <code>Vercel</code></sub>
+        <sub><code>JavaScript</code> • <code>AI Assistant</code> • <code>Health Informatics</code></sub><br /><br />
+        AI healthcare diagnostic assistant designed to analyze handwritten prescriptions, extract clinical insights from medical reports, and clarify medication guidance with conversational AI safety guardrails.
       </td>
-      <td>
-        Intelligent healthcare diagnostic assistant designed to analyze handwritten prescriptions, extract clinical insights from medical reports, and clarify medication guidance with conversational AI safety guardrails.
-      </td>
-      <td>
-        <a href="https://github.com/Ramchandrapuramshiva/medilens-ai"><b>Code Repository</b></a><br />
-        <a href="https://medilens-ai-five.vercel.app"><b>Live Application</b></a>
+      <td valign="top">
+        <a href="https://github.com/Ramchandrapuramshiva/medilens-ai"><b>Code Repository ➜</b></a><br /><br />
+        <img src="https://img.shields.io/badge/Status-Code_Ready-2ea44f?style=flat-square" alt="Code Ready" /><br />
+        <sub><i>Live deployment undergoing update</i></sub>
       </td>
     </tr>
     <tr>
       <td>
         <b>🎙️ V1 AI Voice Assistant</b><br />
-        <sub><code>Python</code> • <code>Speech-to-Text</code> • <code>LLM Reasoning</code> • <code>Voice Synthesis</code></sub>
+        <sub><code>Python</code> • <code>Speech-to-Text</code> • <code>LLM Reasoning</code> • <code>Voice Synthesis</code></sub><br /><br />
+        Conversational intelligent voice agent engineered for real-time natural speech processing and multi-turn dialogue comprehension.
+        <br />
+        <sub>• <b>Architecture & Audio Pipeline:</b> Designed & Tested</sub><br />
+        <sub>• <b>Desktop Automation & Streaming:</b> In Active Development</sub>
       </td>
-      <td>
-        Conversational intelligent voice agent engineered for real-time natural speech processing, multi-turn dialogue comprehension, and automated desktop execution.
-      </td>
-      <td>
-        <em>[Active Development]</em><br />
-        <sub>Private Testing Pipeline</sub>
+      <td valign="top">
+        <b>[Private Pipeline]</b><br /><br />
+        <img src="https://img.shields.io/badge/Status-In_Development-e3b341?style=flat-square" alt="In Development" /><br />
+        <sub><i>Active R&D Phase</i></sub>
       </td>
     </tr>
     <tr>
       <td>
         <b>💎 Modern Web Portfolio Ecosystem</b><br />
-        <sub><code>React</code> • <code>Vite</code> • <code>TypeScript</code> • <code>Tailwind CSS</code> • <code>UX Design</code></sub>
+        <sub><code>React</code> • <code>Vite</code> • <code>TypeScript</code> • <code>Tailwind CSS</code> • <code>UX Design</code></sub><br /><br />
+        High-performance responsive web experience featuring bespoke editorial styling, fluid scrolling animations, modern typography, and optimized asset delivery.
       </td>
-      <td>
-        Curated showcase of high-end, responsive web experiences featuring bespoke editorial styling, fluid scrolling animations, and performant asset optimization.
-      </td>
-      <td>
-        <a href="https://github.com/Ramchandrapuramshiva/pariha-pedda-portfolio"><b>Code Repository</b></a><br />
-        <a href="https://pariha-pedda-portfolio.vercel.app"><b>Live Portfolio</b></a>
+      <td valign="top">
+        <a href="https://github.com/Ramchandrapuramshiva/pariha-pedda-portfolio"><b>Code Repository ➜</b></a><br /><br />
+        <a href="https://pariha-pedda-portfolio.vercel.app"><b>Live Application ➜</b></a><br /><br />
+        <img src="https://img.shields.io/badge/Status-Live-2ea44f?style=flat-square" alt="Live Status" />
       </td>
     </tr>
   </tbody>
@@ -131,8 +129,8 @@ identity:
 <!-- Dynamic Contribution Snake Animation Generated via Platane/snk -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ramchandrapuramshiva/shiva-github-portfolio/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ramchandrapuramshiva/shiva-github-portfolio/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ramchandrapuramshiva/Ramchandrapuramshiva/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ramchandrapuramshiva/Ramchandrapuramshiva/output/github-contribution-grid-snake.svg">
     <img alt="GitHub Contribution Snake Animation" src="assets/contribution-snake-preview.svg" width="100%">
   </picture>
 </div>
@@ -145,11 +143,11 @@ identity:
 
 <div align="center">
   <a href="https://github.com/Ramchandrapuramshiva">
-    <img src="https://github-readme-stats.vercel.app/api?username=Ramchandrapuramshiva&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=e6edf3" alt="Shiva's GitHub Stats" height="150" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Ramchandrapuramshiva&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=e6edf3" alt="Shiva's GitHub Stats - Public Repositories and Contributions" height="155" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/Ramchandrapuramshiva">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ramchandrapuramshiva&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=e6edf3" alt="Top Languages" height="150" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ramchandrapuramshiva&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=e6edf3" alt="Top Languages Used in Shiva's Repositories" height="155" />
   </a>
 </div>
 
@@ -167,11 +165,11 @@ $ ping -c 1 shiva.dev
 
 <div align="center">
   <a href="https://github.com/Ramchandrapuramshiva">
-    <img src="https://img.shields.io/badge/GitHub-Ramchandrapuramshiva-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub Profile" />
+    <img src="https://img.shields.io/badge/GitHub-Ramchandrapuramshiva-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub Profile Link" />
   </a>
   &nbsp;
   <a href="mailto:shiva61514@gmail.com">
-    <img src="https://img.shields.io/badge/Email-shiva61514%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Direct Email" />
+    <img src="https://img.shields.io/badge/Email-shiva61514%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Direct Email Contact" />
   </a>
 </div>
 

@@ -185,8 +185,8 @@ def build_animation():
     
     # Output of cmd3
     lines_after_cmd3 = curr_lines + [
-        [("   + ", font_bold, ACCENT_GREEN), ("cinestream/          ", font_bold, ACCENT_BLUE), ("Movie Discovery Platform (React+Vite) ", font_regular, MUTED_COLOR), ("[LIVE]", font_bold, ACCENT_GREEN)],
-        [("   + ", font_bold, ACCENT_GREEN), ("medilens-ai/         ", font_bold, ACCENT_PURPLE), ("AI Prescription & Report Assistant  ", font_regular, MUTED_COLOR), ("[LIVE]", font_bold, ACCENT_GREEN)],
+        [("   + ", font_bold, ACCENT_GREEN), ("cinestream/          ", font_bold, ACCENT_BLUE), ("Movie Discovery Platform (React+Vite) ", font_regular, MUTED_COLOR), ("[REPO]", font_bold, ACCENT_BLUE)],
+        [("   + ", font_bold, ACCENT_GREEN), ("medilens-ai/         ", font_bold, ACCENT_PURPLE), ("AI Prescription & Report Assistant  ", font_regular, MUTED_COLOR), ("[REPO]", font_bold, ACCENT_BLUE)],
         [("   + ", font_bold, ACCENT_YELLOW), ("v1-voice-assistant/  ", font_bold, ACCENT_YELLOW), ("Intelligent Conversational Voice AI ", font_regular, MUTED_COLOR), ("[DEV]", font_bold, ACCENT_YELLOW)],
         [("   + ", font_bold, ACCENT_GREEN), ("personal-portfolio/  ", font_bold, ACCENT_ORANGE), ("Modern Responsive Portfolio Platform", font_regular, MUTED_COLOR), ("[LIVE]", font_bold, ACCENT_GREEN)],
     ]

@@ -38,7 +38,7 @@ c:\Users\HP\OneDrive\Desktop\Git hub\
 
 To allow the automated Contribution Snake workflow to generate your snake SVGs and push them to the `output` branch:
 
-1. Open your repository on GitHub: `https://github.com/Ramchandrapuramshiva/shiva-github-portfolio`
+1. Open your repository on GitHub: `https://github.com/Ramchandrapuramshiva/Ramchandrapuramshiva`
 2. Click on **Settings** (top tab).
 3. In the left sidebar, click on **Actions** ➔ **General**.
 4. Scroll down to **Workflow permissions**.
@@ -59,7 +59,7 @@ To allow the automated Contribution Snake workflow to generate your snake SVGs a
 4. Your `README.md` automatically loads the dark SVG for dark mode users and light SVG for light mode users, with `assets/contribution-snake-preview.svg` as a reliable initial fallback.
 
 ### Manually Running the Snake Workflow:
-1. Go to `https://github.com/Ramchandrapuramshiva/shiva-github-portfolio/actions`.
+1. Go to `https://github.com/Ramchandrapuramshiva/Ramchandrapuramshiva/actions`.
 2. Click **Generate Contribution Snake Animation** in the left menu.
 3. Click the **Run workflow** dropdown on the right and click the green **Run workflow** button.
 4. Wait ~45 seconds until the checkmark turns green.
@@ -81,39 +81,17 @@ Whenever you learn a new technology or launch a new project:
 
 ---
 
-## 📤 6. Step-by-Step Publishing Instructions
+## 📤 6. Synchronizing Updates with GitHub
 
-When you are ready to publish:
+When updating your portfolio:
 
-### Step A: Initialize Git in your workspace folder
 ```powershell
-git init -b main
-```
-
-### Step B: Stage and Commit the files
-```powershell
+# 1. Stage modified files
 git add .
-git commit -m "feat: initial release of animated profile command center"
+
+# 2. Commit your update
+git commit -m "feat: improve profile responsiveness and link verification"
+
+# 3. Push to your profile repository
+git push origin main
 ```
-
-### Step C: Link to your GitHub repository
-```powershell
-git remote add origin https://github.com/Ramchandrapuramshiva/shiva-github-portfolio.git
-```
-
-### Step D: Push to GitHub
-```powershell
-git push -u origin main
-```
-
----
-
-## 🌟 7. How to Display This Directly on Your Main Profile Page (`github.com/Ramchandrapuramshiva`)
-
-GitHub has a special feature where a README displays directly on your user profile page (`https://github.com/Ramchandrapuramshiva`) **only when the repository name matches your exact username (`Ramchandrapuramshiva`)**.
-
-To activate this in 10 seconds:
-1. Go to `https://github.com/Ramchandrapuramshiva/shiva-github-portfolio/settings`.
-2. In the **Repository name** field at the top, change `shiva-github-portfolio` to `Ramchandrapuramshiva`.
-3. Click **Rename**.
-4. GitHub will automatically show your animated command center right at the top of your public profile page!
