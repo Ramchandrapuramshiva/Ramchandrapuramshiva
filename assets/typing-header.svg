@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 90" width="100%" height="90" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;display=swap');
+      
+      .terminal-box {
+        fill: #0d1117;
+        stroke: #30363d;
+        stroke-width: 1.5;
+        rx: 8;
+      }
+      .prompt {
+        font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 15px;
+        font-weight: 600;
+        fill: #58a6ff;
+      }
+      .prompt-arrow {
+        fill: #3fb950;
+      }
+      .text-body {
+        font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 15px;
+        fill: #e6edf3;
+      }
+      .cursor {
+        fill: #58a6ff;
+        animation: blink 0.8s infinite;
+      }
+      
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+      /* Multi-phrase cycling animation */
+      .phrase-1 {
+        animation: cyclePhrase1 16s infinite;
+      }
+      .phrase-2 {
+        animation: cyclePhrase2 16s infinite;
+      }
+      .phrase-3 {
+        animation: cyclePhrase3 16s infinite;
+      }
+      .phrase-4 {
+        animation: cyclePhrase4 16s infinite;
+      }
+
+      @keyframes cyclePhrase1 {
+        0%, 20% { opacity: 1; }
+        24%, 100% { opacity: 0; }
+      }
+      @keyframes cyclePhrase2 {
+        0%, 24% { opacity: 0; }
+        26%, 46% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes cyclePhrase3 {
+        0%, 50% { opacity: 0; }
+        52%, 72% { opacity: 1; }
+        76%, 100% { opacity: 0; }
+      }
+      @keyframes cyclePhrase4 {
+        0%, 76% { opacity: 0; }
+        78%, 96% { opacity: 1; }
+        99%, 100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect class="terminal-box" x="1" y="1" width="838" height="88" />
+
+  <!-- Terminal Top Bar Indicator Dots -->
+  <circle cx="24" cy="22" r="5" fill="#ff5f56" />
+  <circle cx="40" cy="22" r="5" fill="#ffbd2e" />
+  <circle cx="56" cy="22" r="5" fill="#27c93f" />
+
+  <!-- Header Subtitle / Label -->
+  <text x="80" y="26" font-family="'Fira Code', monospace" font-size="11" fill="#8b949e">focus-stream :: active-mission</text>
+
+  <!-- Content Line -->
+  <g transform="translate(24, 60)">
+    <text class="prompt" x="0" y="0">shiva@dev-box<tspan class="prompt-arrow">:</tspan><tspan fill="#d2a8ff">~</tspan><tspan class="prompt-arrow">$</tspan> </text>
+    
+    <!-- Animated Text Group -->
+    <g transform="translate(145, 0)">
+      <g class="phrase-1">
+        <text class="text-body" x="0" y="0">Building AI-powered applications</text>
+        <rect class="cursor" x="285" y="-14" width="8" height="17" />
+      </g>
+      <g class="phrase-2">
+        <text class="text-body" x="0" y="0">Exploring LLMs and intelligent agents</text>
+        <rect class="cursor" x="330" y="-14" width="8" height="17" />
+      </g>
+      <g class="phrase-3">
+        <text class="text-body" x="0" y="0">Developing full-stack products</text>
+        <rect class="cursor" x="270" y="-14" width="8" height="17" />
+      </g>
+      <g class="phrase-4">
+        <text class="text-body" x="0" y="0">Learning by building real projects</text>
+        <rect class="cursor" x="300" y="-14" width="8" height="17" />
+      </g>
+    </g>
+  </g>
+</svg>
