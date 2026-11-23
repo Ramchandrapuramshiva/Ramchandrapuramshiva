@@ -1,0 +1,8 @@
+# GitHub Linguist language detection overrides
+# Prevents presentation preview files and SVG assets from inflating HTML statistics
+
+*.html linguist-detectable=false
+*.html linguist-documentation=true
+preview.html linguist-detectable=false
+preview.html linguist-documentation=true
+assets/*.svg linguist-detectable=false

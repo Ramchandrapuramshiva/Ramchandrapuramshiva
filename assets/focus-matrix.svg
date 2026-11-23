@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 210" width="100%" height="100%" fill="none">
+  <style>
+    .mono {
+      font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Consolas, monospace;
+    }
+    .sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+    }
+    .card-title {
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 13px;
+    }
+    .body-line {
+      font-size: 11px;
+      line-height: 1.6;
+    }
+  </style>
+
+  <!-- 1. Background Frame -->
+  <rect width="920" height="210" fill="#171A1C" />
+  <rect x="2" y="2" width="916" height="206" fill="none" stroke="#234B3B" stroke-width="1" />
+
+  <!-- 2. Header Bar -->
+  <g transform="translate(24, 26)">
+    <rect x="0" y="0" width="8" height="8" fill="#B8754B" />
+    <text x="18" y="8" fill="#F5F1E8" class="mono" font-size="11" font-weight="700" letter-spacing="1.5">
+      CURRENT ENGINEERING VECTORS <tspan fill="#737873">//</tspan> ACTIVE RESEARCH &amp; BUILD DOMAINS
+    </text>
+    <text x="872" y="8" text-anchor="end" fill="#737873" class="mono" font-size="9.5" letter-spacing="1">
+      STATUS: ITERATING DAILY
+    </text>
+  </g>
+
+  <!-- 3. Top Rule -->
+  <line x1="24" y1="42" x2="896" y2="42" stroke="#234B3B" stroke-width="1" />
+
+  <!-- 4. COLUMN 1: LLM & Multimodal AI -->
+  <g transform="translate(24, 58)">
+    <rect width="276" height="132" fill="#171A1C" stroke="#234B3B" stroke-width="1" />
+    <rect x="0" y="0" width="276" height="3" fill="#B8754B" />
+    
+    <text x="16" y="22" fill="#737873" class="mono" font-size="9" letter-spacing="1">PILLAR 01 // COGNITION</text>
+    <text x="16" y="40" fill="#F5F1E8" class="sans card-title">MULTIMODAL AI &amp; LLMS</text>
+    <line x1="16" y1="50" x2="260" y2="50" stroke="#234B3B" stroke-width="0.8" />
+    
+    <!-- Bullet points -->
+    <g transform="translate(16, 68)" fill="#D8D3C8" class="sans body-line">
+      <circle cx="3" cy="-3.5" r="2" fill="#B8754B" />
+      <text x="12" y="0">Gemini 1.5 &amp; 2.0 API integrations</text>
+      
+      <circle cx="3" cy="14.5" r="2" fill="#B8754B" />
+      <text x="12" y="18">Strict OCR &amp; structured JSON parsing</text>
+      
+      <circle cx="3" cy="32.5" r="2" fill="#B8754B" />
+      <text x="12" y="36">Context window &amp; prompt grounding</text>
+    </g>
+  </g>
+
+  <!-- 5. COLUMN 2: Agent Systems & Voice -->
+  <g transform="translate(322, 58)">
+    <rect width="276" height="132" fill="#171A1C" stroke="#234B3B" stroke-width="1" />
+    <rect x="0" y="0" width="276" height="3" fill="#234B3B" />
+    
+    <text x="16" y="22" fill="#737873" class="mono" font-size="9" letter-spacing="1">PILLAR 02 // AGENTS</text>
+    <text x="16" y="40" fill="#F5F1E8" class="sans card-title">AUTONOMOUS VOICE AGENTS</text>
+    <line x1="16" y1="50" x2="260" y2="50" stroke="#234B3B" stroke-width="0.8" />
+
+    <!-- Bullet points -->
+    <g transform="translate(16, 68)" fill="#D8D3C8" class="sans body-line">
+      <circle cx="3" cy="-3.5" r="2" fill="#234B3B" />
+      <text x="12" y="0">Real-time voice parsing (Nova V1)</text>
+      
+      <circle cx="3" cy="14.5" r="2" fill="#234B3B" />
+      <text x="12" y="18">Sentence-aligned response chunking</text>
+      
+      <circle cx="3" cy="32.5" r="2" fill="#234B3B" />
+      <text x="12" y="36">Instant barge-in interruption logic</text>
+    </g>
+  </g>
+
+  <!-- 6. COLUMN 3: Modern Full-Stack -->
+  <g transform="translate(620, 58)">
+    <rect width="276" height="132" fill="#171A1C" stroke="#234B3B" stroke-width="1" />
+    <rect x="0" y="0" width="276" height="3" fill="#B8754B" />
+    
+    <text x="16" y="22" fill="#737873" class="mono" font-size="9" letter-spacing="1">PILLAR 03 // ARCHITECTURE</text>
+    <text x="16" y="40" fill="#F5F1E8" class="sans card-title">MODERN FULL-STACK CRAFT</text>
+    <line x1="16" y1="50" x2="260" y2="50" stroke="#234B3B" stroke-width="0.8" />
+
+    <!-- Bullet points -->
+    <g transform="translate(16, 68)" fill="#D8D3C8" class="sans body-line">
+      <circle cx="3" cy="-3.5" r="2" fill="#B8754B" />
+      <text x="12" y="0">React 19 &amp; TypeScript interfaces</text>
+      
+      <circle cx="3" cy="14.5" r="2" fill="#B8754B" />
+      <text x="12" y="18">Tailwind CSS component design</text>
+      
+      <circle cx="3" cy="32.5" r="2" fill="#B8754B" />
+      <text x="12" y="36">Node.js, Express &amp; Supabase data</text>
+    </g>
+  </g>
+</svg>

@@ -1,19 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 20" width="100%" height="20" fill="none">
-  <defs>
-    <linearGradient id="divider-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#10070C" stop-opacity="0" />
-      <stop offset="25%" stop-color="#451126" stop-opacity="0.6" />
-      <stop offset="45%" stop-color="#701A3D" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#E5B5C7" stop-opacity="1" />
-      <stop offset="55%" stop-color="#701A3D" stop-opacity="0.9" />
-      <stop offset="75%" stop-color="#451126" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#10070C" stop-opacity="0" />
-    </linearGradient>
-  </defs>
-
-  <line x1="20" y1="10" x2="900" y2="10" stroke="url(#divider-grad)" stroke-width="1.2" />
-  <circle cx="460" cy="10" r="3.5" fill="#E5B5C7" />
-  <polygon points="460,4 466,10 460,16 454,10" fill="none" stroke="#701A3D" stroke-width="1" />
-  <circle cx="380" cy="10" r="1.5" fill="#701A3D" />
-  <circle cx="540" cy="10" r="1.5" fill="#701A3D" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 18" width="100%" height="18" fill="none">
+  <!-- Subtle Editorial Hairline Divider with Solid Center Marker -->
+  <line x1="20" y1="9" x2="430" y2="9" stroke="#234B3B" stroke-width="1" />
+  <line x1="490" y1="9" x2="900" y2="9" stroke="#234B3B" stroke-width="1" />
+  
+  <!-- Outer Calibration Ticks -->
+  <line x1="20" y1="5" x2="20" y2="13" stroke="#737873" stroke-width="1" />
+  <line x1="900" y1="5" x2="900" y2="13" stroke="#737873" stroke-width="1" />
+  
+  <!-- Central Geometric Focus Node -->
+  <rect x="454" y="3" width="12" height="12" fill="#171A1C" stroke="#B8754B" stroke-width="1.2" transform="rotate(45 460 9)" />
+  <circle cx="460" cy="9" r="2" fill="#F5F1E8" />
 </svg>

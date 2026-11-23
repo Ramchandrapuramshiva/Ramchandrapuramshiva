@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 150" width="100%" height="100%" fill="none">
+  <style>
+    .mono {
+      font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', Consolas, monospace;
+    }
+    .sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif;
+    }
+  </style>
+
+  <!-- 1. Background -->
+  <rect width="920" height="150" fill="#171A1C" />
+  <rect x="2" y="2" width="916" height="146" fill="none" stroke="#234B3B" stroke-width="1" />
+
+  <!-- 2. Header Bar -->
+  <g transform="translate(20, 24)">
+    <rect x="0" y="0" width="6" height="6" fill="#B8754B" />
+    <text x="14" y="7" fill="#F5F1E8" class="mono" font-size="10.5" font-weight="700" letter-spacing="1.5">
+      NOVA V1 VOICE ENGINE <tspan fill="#737873">//</tspan> REAL-TIME AUDIO PIPELINE &amp; AGENT ORCHESTRATION
+    </text>
+    <text x="880" y="7" text-anchor="end" fill="#737873" class="mono" font-size="9" letter-spacing="1">
+      LATENCY OPTIMIZED
+    </text>
+  </g>
+  <line x1="20" y1="36" x2="900" y2="36" stroke="#234B3B" stroke-width="0.8" />
+
+  <!-- 3. Connecting Pipeline Highway -->
+  <line x1="60" y1="88" x2="860" y2="88" stroke="#234B3B" stroke-width="2" />
+  <line x1="60" y1="88" x2="860" y2="88" stroke="#B8754B" stroke-width="2" stroke-dasharray="40 180">
+    <animate attributeName="stroke-dashoffset" from="220" to="0" dur="3.5s" repeatCount="indefinite" />
+  </line>
+
+  <!-- 4. Pipeline Stages -->
+  <!-- STAGE 1: AUDIO CAPTURE -->
+  <g transform="translate(40, 56)">
+    <rect width="140" height="64" fill="#171A1C" stroke="#737873" stroke-width="1" />
+    <rect x="0" y="0" width="140" height="2" fill="#234B3B" />
+    <text x="12" y="18" fill="#737873" class="mono" font-size="8" letter-spacing="1">01 / INPUT</text>
+    <text x="12" y="34" fill="#F5F1E8" class="sans" font-size="11" font-weight="600">Speech Capture</text>
+    <text x="12" y="50" fill="#D8D3C8" class="mono" font-size="9">MediaDevices API</text>
+    <circle cx="70" cy="32" r="3" fill="#234B3B" />
+  </g>
+
+  <!-- STAGE 2: WAKE-WORD & TRANSCRIPT -->
+  <g transform="translate(210, 56)">
+    <rect width="150" height="64" fill="#171A1C" stroke="#737873" stroke-width="1" />
+    <rect x="0" y="0" width="150" height="2" fill="#234B3B" />
+    <text x="12" y="18" fill="#737873" class="mono" font-size="8" letter-spacing="1">02 / PARSING</text>
+    <text x="12" y="34" fill="#F5F1E8" class="sans" font-size="11" font-weight="600">Wake-Word &amp; Intent</text>
+    <text x="12" y="50" fill="#D8D3C8" class="mono" font-size="9">PureTranscript Engine</text>
+    <circle cx="75" cy="32" r="3" fill="#234B3B" />
+  </g>
+
+  <!-- STAGE 3: GEMINI AGENT ORCHESTRATOR -->
+  <g transform="translate(390, 52)">
+    <rect width="170" height="72" fill="#171A1C" stroke="#B8754B" stroke-width="1.2" />
+    <rect x="0" y="0" width="170" height="3" fill="#B8754B" />
+    <text x="12" y="18" fill="#B8754B" class="mono" font-size="8" letter-spacing="1">03 / CORE REASONING</text>
+    <text x="12" y="36" fill="#F5F1E8" class="sans" font-size="12" font-weight="700">Gemini 2.0 API</text>
+    <text x="12" y="52" fill="#D8D3C8" class="mono" font-size="9">Plan &amp; Tool Orchestrator</text>
+    <circle cx="85" cy="36" r="3.5" fill="#B8754B" />
+  </g>
+
+  <!-- STAGE 4: RESPONSE CHUNKER -->
+  <g transform="translate(590, 56)">
+    <rect width="140" height="64" fill="#171A1C" stroke="#737873" stroke-width="1" />
+    <rect x="0" y="0" width="140" height="2" fill="#234B3B" />
+    <text x="12" y="18" fill="#737873" class="mono" font-size="8" letter-spacing="1">04 / STREAMING</text>
+    <text x="12" y="34" fill="#F5F1E8" class="sans" font-size="11" font-weight="600">Sentence Chunker</text>
+    <text x="12" y="50" fill="#D8D3C8" class="mono" font-size="9">Natural Boundary Split</text>
+    <circle cx="70" cy="32" r="3" fill="#234B3B" />
+  </g>
+
+  <!-- STAGE 5: TTS & BARGE-IN -->
+  <g transform="translate(760, 56)">
+    <rect width="130" height="64" fill="#171A1C" stroke="#737873" stroke-width="1" />
+    <rect x="0" y="0" width="130" height="2" fill="#234B3B" />
+    <text x="12" y="18" fill="#737873" class="mono" font-size="8" letter-spacing="1">05 / SYNTHESIS</text>
+    <text x="12" y="34" fill="#F5F1E8" class="sans" font-size="11" font-weight="600">Audio Queue</text>
+    <text x="12" y="50" fill="#D8D3C8" class="mono" font-size="9">Barge-in Invalidation</text>
+    <circle cx="65" cy="32" r="3" fill="#234B3B" />
+  </g>
+</svg>

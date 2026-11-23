@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" width="100%" height="100%" fill="none">
+  <style>
+    .mono {
+      font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', 'Cascadia Code', Consolas, monospace;
+    }
+    .sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    .serif-display {
+      font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    }
+    .title-primary {
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    .tracking-wide {
+      letter-spacing: 2.5px;
+    }
+    .tracking-tight {
+      letter-spacing: 0.5px;
+    }
+  </style>
+
+  <!-- 1. Solid Canvas Background -->
+  <rect width="920" height="320" fill="#171A1C" />
+
+  <!-- 2. Architectural Editorial Border -->
+  <rect x="16" y="16" width="888" height="288" fill="none" stroke="#234B3B" stroke-width="1" />
+  <rect x="22" y="22" width="876" height="276" fill="none" stroke="#737873" stroke-width="0.5" stroke-dasharray="4 4" />
+
+  <!-- 3. Corner Registration Marks (+) -->
+  <g stroke="#B8754B" stroke-width="1.5">
+    <!-- Top-Left -->
+    <line x1="8" y1="16" x2="24" y2="16" />
+    <line x1="16" y1="8" x2="16" y2="24" />
+    <!-- Top-Right -->
+    <line x1="896" y1="16" x2="912" y2="16" />
+    <line x1="904" y1="8" x2="904" y2="24" />
+    <!-- Bottom-Left -->
+    <line x1="8" y1="304" x2="24" y2="304" />
+    <line x1="16" y1="296" x2="16" y2="312" />
+    <!-- Bottom-Right -->
+    <line x1="896" y1="304" x2="912" y2="304" />
+    <line x1="904" y1="296" x2="904" y2="312" />
+  </g>
+
+  <!-- 4. Subtle Technical Grid Matrix (Fine Solid Dots) -->
+  <g fill="#737873" opacity="0.35">
+    <circle cx="50" cy="50" r="1" />
+    <circle cx="80" cy="50" r="1" />
+    <circle cx="110" cy="50" r="1" />
+    <circle cx="140" cy="50" r="1" />
+    <circle cx="50" cy="80" r="1" />
+    <circle cx="80" cy="80" r="1" />
+    <circle cx="110" cy="80" r="1" />
+    <circle cx="140" cy="80" r="1" />
+    <circle cx="50" cy="110" r="1" />
+    <circle cx="80" cy="110" r="1" />
+    <circle cx="110" cy="110" r="1" />
+    <circle cx="140" cy="110" r="1" />
+  </g>
+
+  <!-- 5. Editorial Header Tag -->
+  <g transform="translate(52, 46)">
+    <!-- Solid Tag Frame -->
+    <rect x="0" y="0" width="220" height="24" fill="#234B3B" />
+    <text x="12" y="16" fill="#F5F1E8" class="mono" font-size="10" font-weight="600" letter-spacing="1.5">ENGINEERING IDENTITY // 2026</text>
+    
+    <!-- Coordinate Meta -->
+    <text x="240" y="16" fill="#737873" class="mono" font-size="10" letter-spacing="1">17.3850° N, 78.4867° E [HYD]</text>
+  </g>
+
+  <!-- 6. Main Developer Name (High-Contrast Editorial Typography) -->
+  <g transform="translate(52, 118)">
+    <text x="0" y="0" class="sans title-primary" font-size="38" fill="#F5F1E8">SHIVA RAMCHANDRAPURAM</text>
+    
+    <!-- Accent Solid Marker Block -->
+    <rect x="635" y="-28" width="10" height="32" fill="#B8754B" />
+  </g>
+
+  <!-- 7. Structural Solid Accent Rule with Subtle Traveling Point -->
+  <g transform="translate(52, 142)">
+    <line x1="0" y1="0" x2="570" y2="0" stroke="#234B3B" stroke-width="2" />
+    <line x1="0" y1="0" x2="160" y2="0" stroke="#B8754B" stroke-width="2" />
+    <!-- Traveling Solid Calibration Tick -->
+    <circle cx="0" cy="0" r="2.5" fill="#F5F1E8">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="570,0" dur="4.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- 8. Core Positioning & Discipline -->
+  <g transform="translate(52, 180)">
+    <text x="0" y="0" class="sans" font-size="14" font-weight="600" fill="#D8D3C8" letter-spacing="1.8">
+      AI ENGINEER IN PROGRESS <tspan fill="#B8754B">/</tspan> FULL-STACK DEVELOPER
+    </text>
+  </g>
+
+  <!-- 9. Editorial Sub-Introduction -->
+  <g transform="translate(52, 212)">
+    <text x="0" y="0" class="sans" font-size="12.5" fill="#737873" letter-spacing="0.4">
+      Designing intelligent autonomous workflows, multimodal vision systems, and robust web applications.
+    </text>
+    <text x="0" y="20" class="sans" font-size="12.5" fill="#737873" letter-spacing="0.4">
+      Focused on pragmatic problem solving, rigorous code craft, and end-to-end software execution.
+    </text>
+  </g>
+
+  <!-- 10. Bottom Engineering Telemetry Badges -->
+  <g transform="translate(52, 276)" class="mono" font-size="10.5">
+    <!-- Active Status Beacon -->
+    <circle cx="6" cy="-3.5" r="3.5" fill="#B8754B">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="18" y="0" fill="#D8D3C8" letter-spacing="1">STATUS: BUILDING ACTIVE APPS</text>
+    <text x="250" y="0" fill="#737873">|</text>
+    <text x="270" y="0" fill="#D8D3C8" letter-spacing="1">DEGREE: B.TECH CSE (NIAT / NEXTWAVE)</text>
+    <text x="560" y="0" fill="#737873">|</text>
+    <text x="580" y="0" fill="#B8754B" letter-spacing="1">GENAI &#8226; FULL-STACK</text>
+  </g>
+
+  <!-- 11. Right Visual Signature: Animated Precision Reticle & Compass (Solid Vectors) -->
+  <g transform="translate(775, 150)">
+    <!-- Outer Octagon Frame -->
+    <polygon points="0,-72 51,-51 72,0 51,51 0,72 -51,51 -72,0 -51,-51" fill="none" stroke="#234B3B" stroke-width="1.2" />
+    
+    <!-- Rotating Dashed Precision Ring -->
+    <circle cx="0" cy="0" r="58" fill="none" stroke="#737873" stroke-width="1" stroke-dasharray="6 6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Concentric Inner Orbit with Counter-Rotation -->
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#234B3B" stroke-width="1.2" stroke-dasharray="14 8">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Center Coordinate Crosshairs -->
+    <line x1="-80" y1="0" x2="80" y2="0" stroke="#737873" stroke-width="0.8" opacity="0.6" />
+    <line x1="0" y1="-80" x2="0" y2="80" stroke="#737873" stroke-width="0.8" opacity="0.6" />
+
+    <!-- Solid Copper Satellite Node -->
+    <circle cx="0" cy="-38" r="3.5" fill="#B8754B">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Center Core Emblem -->
+    <circle cx="0" cy="0" r="10" fill="#171A1C" stroke="#B8754B" stroke-width="1.5" />
+    <rect x="-3.5" y="-3.5" width="7" height="7" fill="#F5F1E8" />
+
+    <!-- Cardinal Coordinate Indices -->
+    <text x="0" y="-84" fill="#737873" class="mono" font-size="8.5" text-anchor="middle">N</text>
+    <text x="86" y="3" fill="#737873" class="mono" font-size="8.5" text-anchor="start">E</text>
+    <text x="0" y="92" fill="#737873" class="mono" font-size="8.5" text-anchor="middle">S</text>
+    <text x="-86" y="3" fill="#737873" class="mono" font-size="8.5" text-anchor="end">W</text>
+  </g>
+</svg>
