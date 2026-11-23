@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 340" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10070C" />
+      <stop offset="45%" stop-color="#190B12" />
+      <stop offset="85%" stop-color="#10070C" />
+    </linearGradient>
+
+    <radialGradient id="wine-glow-left" cx="20%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.32" />
+      <stop offset="50%" stop-color="#451126" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#10070C" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="rose-glow-right" cx="85%" cy="75%" r="60%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.28" />
+      <stop offset="60%" stop-color="#451126" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#10070C" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Shimmering Text Gradient -->
+    <linearGradient id="text-shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8F0F3">
+        <animate attributeName="stop-color" 
+          values="#F8F0F3;#E5B5C7;#F8F0F3;#C77B9B;#F8F0F3" 
+          dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#E5B5C7">
+        <animate attributeName="stop-color" 
+          values="#E5B5C7;#C77B9B;#F8F0F3;#E5B5C7;#E5B5C7" 
+          dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#C77B9B">
+        <animate attributeName="stop-color" 
+          values="#C77B9B;#F8F0F3;#E5B5C7;#C77B9B;#C77B9B" 
+          dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Underline Glow Laser Gradient -->
+    <linearGradient id="laser-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#451126" stop-opacity="0.2" />
+      <stop offset="25%" stop-color="#701A3D" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#E5B5C7" stop-opacity="1">
+        <animate attributeName="stop-color" values="#E5B5C7;#F8F0F3;#C77B9B;#E5B5C7" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="75%" stop-color="#701A3D" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#451126" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Moving Beam Gradient -->
+    <linearGradient id="moving-beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C77B9B" stop-opacity="0" />
+      <stop offset="50%" stop-color="#F8F0F3" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#C77B9B" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="laser-blur" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Subtle Technical Grid Pattern -->
+    <pattern id="tech-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="30" y2="0" stroke="#451126" stroke-opacity="0.22" stroke-width="0.8" />
+      <line x1="0" y1="0" x2="0" y2="30" stroke="#451126" stroke-opacity="0.22" stroke-width="0.8" />
+      <circle cx="0" cy="0" r="0.8" fill="#701A3D" fill-opacity="0.6" />
+    </pattern>
+
+    <!-- Mask for Soft Edges -->
+    <linearGradient id="grid-fade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity="0.6" />
+      <stop offset="60%" stop-color="#FFF" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0.05" />
+    </linearGradient>
+    <mask id="fade-mask">
+      <rect width="920" height="340" fill="url(#grid-fade)" />
+    </mask>
+  </defs>
+
+  <style>
+    .font-mono {
+      font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', 'Cascadia Code', Consolas, monospace;
+    }
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    .title-text {
+      font-weight: 800;
+      letter-spacing: 5px;
+    }
+    .subtitle-text {
+      font-weight: 500;
+      letter-spacing: 3.2px;
+    }
+    .badge-text {
+      font-weight: 600;
+      letter-spacing: 2px;
+      font-size: 11px;
+    }
+  </style>
+
+  <!-- 1. Background Layers -->
+  <rect width="920" height="340" rx="14" fill="url(#bg-grad)" />
+  <rect width="920" height="340" rx="14" fill="url(#wine-glow-left)" />
+  <rect width="920" height="340" rx="14" fill="url(#rose-glow-right)" />
+
+  <!-- 2. Architectural Frame Border -->
+  <rect x="1.5" y="1.5" width="917" height="337" rx="13" stroke="#451126" stroke-opacity="0.75" stroke-width="1.2" />
+  <rect x="7" y="7" width="906" height="326" rx="9" stroke="#701A3D" stroke-opacity="0.35" stroke-width="0.8" stroke-dasharray="8 4" />
+
+  <!-- 3. Technical Grid Texture -->
+  <rect x="8" y="8" width="904" height="324" fill="url(#tech-grid)" mask="url(#fade-mask)" />
+
+  <!-- 4. Corner Precision Reticles -->
+  <g stroke="#C77B9B" stroke-opacity="0.6" stroke-width="1.5" fill="none">
+    <!-- Top-Left -->
+    <path d="M 18 28 L 18 18 L 28 18" />
+    <circle cx="18" cy="18" r="1.5" fill="#E5B5C7" />
+    <!-- Top-Right -->
+    <path d="M 902 28 L 902 18 L 892 18" />
+    <circle cx="902" cy="18" r="1.5" fill="#E5B5C7" />
+    <!-- Bottom-Left -->
+    <path d="M 18 312 L 18 322 L 28 322" />
+    <circle cx="18" cy="322" r="1.5" fill="#E5B5C7" />
+    <!-- Bottom-Right -->
+    <path d="M 902 312 L 902 322 L 892 322" />
+    <circle cx="902" cy="322" r="1.5" fill="#E5B5C7" />
+  </g>
+
+  <!-- 5. Technical Ambient Geometry (Orbital Elements) -->
+  <g transform="translate(775, 140)">
+    <!-- Outer dashed orbit -->
+    <circle cx="0" cy="0" r="88" stroke="#451126" stroke-opacity="0.45" stroke-width="1" stroke-dasharray="5 7">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="50s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Mid gear orbit -->
+    <circle cx="0" cy="0" r="62" stroke="#701A3D" stroke-opacity="0.55" stroke-width="1.2" stroke-dasharray="14 10">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="32s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Inner fine orbit -->
+    <circle cx="0" cy="0" r="36" stroke="#C77B9B" stroke-opacity="0.4" stroke-width="0.9" stroke-dasharray="4 4">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Planetary nodes -->
+    <circle cx="0" cy="-62" r="3.5" fill="#E5B5C7" filter="url(#soft-glow)">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="32s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="36" cy="0" r="2.5" fill="#C77B9B">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Center Crosshair Target -->
+    <circle cx="0" cy="0" r="8" fill="#451126" stroke="#701A3D" stroke-width="1.2" />
+    <circle cx="0" cy="0" r="2.5" fill="#F8F0F3" />
+    <line x1="-16" y1="0" x2="16" y2="0" stroke="#C77B9B" stroke-opacity="0.4" stroke-width="0.8" />
+    <line x1="0" y1="-16" x2="0" y2="16" stroke="#C77B9B" stroke-opacity="0.4" stroke-width="0.8" />
+  </g>
+
+  <!-- 6. Left Geometry Watermark Node -->
+  <g transform="translate(85, 235)" opacity="0.35">
+    <polygon points="0,-24 20,12 -20,12" stroke="#701A3D" stroke-width="1" fill="none">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite" />
+    </polygon>
+    <circle cx="0" cy="0" r="28" stroke="#451126" stroke-width="0.8" stroke-dasharray="3 5" />
+  </g>
+
+  <!-- 7. Animated Wave Path (Telemetry Signal) -->
+  <path d="M 65 272 Q 170 252, 280 272 T 490 272 T 700 272 T 855 272" 
+        stroke="#701A3D" stroke-opacity="0.3" stroke-width="1.5" fill="none" />
+  <path d="M 65 272 Q 170 252, 280 272 T 490 272 T 700 272 T 855 272" 
+        stroke="#C77B9B" stroke-opacity="0.75" stroke-width="1.5" stroke-dasharray="120 400" fill="none">
+    <animate attributeName="stroke-dashoffset" from="520" to="0" dur="5s" repeatCount="indefinite" />
+  </path>
+
+  <!-- 8. Header Status Pill / Identity Meta -->
+  <g transform="translate(65, 52)">
+    <!-- Pill boundary -->
+    <rect x="0" y="0" width="280" height="26" rx="13" fill="#190B12" stroke="#701A3D" stroke-width="1" />
+    <!-- Pulsing status pip -->
+    <circle cx="14" cy="13" r="4" fill="#C77B9B">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="r" values="3.5;4.5;3.5" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="14" cy="13" r="7" stroke="#E5B5C7" stroke-width="0.8" fill="none" opacity="0.5">
+      <animate attributeName="r" values="5;9;5" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <!-- Status Text -->
+    <text x="28" y="17" fill="#E5B5C7" class="font-mono badge-text">SYS://ACTIVE.ENGINEERING</text>
+    <!-- Divider & Node -->
+    <line x1="210" y1="6" x2="210" y2="20" stroke="#451126" stroke-width="1" />
+    <text x="220" y="17" fill="#C77B9B" class="font-mono badge-text">V2.4</text>
+  </g>
+
+  <!-- 9. Main Hero Name -->
+  <!-- Subtle Backing Glow for Main Headline -->
+  <text x="65" y="148" class="font-sans title-text" font-size="44" fill="#701A3D" opacity="0.35" filter="url(#soft-glow)">SHIVA RAMCHANDRAPURAM</text>
+  <!-- Foreground Crisp Text -->
+  <text x="65" y="148" class="font-sans title-text" font-size="44" fill="url(#text-shimmer)">SHIVA RAMCHANDRAPURAM</text>
+
+  <!-- 10. Glowing Laser Underline -->
+  <g transform="translate(65, 168)">
+    <!-- Base track line -->
+    <line x1="0" y1="0" x2="710" y2="0" stroke="url(#laser-glow)" stroke-width="2.5" />
+    <!-- High-intensity core line -->
+    <line x1="0" y1="0" x2="420" y2="0" stroke="#F8F0F3" stroke-opacity="0.85" stroke-width="1.2" filter="url(#laser-blur)" />
+    <!-- Animated Light Runner Pulse -->
+    <line x1="0" y1="0" x2="160" y2="0" stroke="url(#moving-beam)" stroke-width="3" filter="url(#laser-blur)">
+      <animateTransform attributeName="transform" type="translate" from="-160,0" to="710,0" dur="3.8s" repeatCount="indefinite" />
+    </line>
+    <!-- Geometric anchor point -->
+    <polygon points="714,-4 718,0 714,4 710,0" fill="#E5B5C7" />
+  </g>
+
+  <!-- 11. Role & Discipline Hierarchy -->
+  <g transform="translate(67, 210)">
+    <text x="0" y="0" class="font-sans subtitle-text" font-size="14.5" fill="#E5B5C7">
+      AI ENGINEER IN PROGRESS <tspan fill="#701A3D">|</tspan> FULL-STACK DEVELOPER
+    </text>
+  </g>
+
+  <g transform="translate(67, 236)">
+    <text x="0" y="0" class="font-mono" font-size="12" fill="#C77B9B" letter-spacing="1.5">
+      <tspan fill="#701A3D">›</tspan> SPECIALIZATION: GENERATIVE AI <tspan fill="#701A3D">•</tspan> AUTONOMOUS AGENTS <tspan fill="#701A3D">•</tspan> MODERN WEB ARCHITECTURE
+    </text>
+  </g>
+
+  <!-- 12. Bottom Telemetry & Origin Metrics -->
+  <g transform="translate(67, 305)" class="font-mono" font-size="10" fill="#E5B5C7" opacity="0.8">
+    <text x="0" y="0" letter-spacing="1.2">
+      <tspan fill="#701A3D">[EDU]</tspan> B.TECH CSE (NIAT / NEXTWAVE)
+    </text>
+    <text x="290" y="0" letter-spacing="1.2">
+      <tspan fill="#701A3D">[FOCUS]</tspan> LEARNING BY BUILDING
+    </text>
+    <text x="540" y="0" letter-spacing="1.2">
+      <tspan fill="#701A3D">[LOC]</tspan> HYDERABAD, INDIA
+    </text>
+  </g>
+
+  <!-- 13. Right Edge Vertical Telemetry Label -->
+  <g transform="translate(900, 170) rotate(-90)">
+    <text x="-40" y="-8" fill="#451126" class="font-mono" font-size="8.5" letter-spacing="3" text-anchor="middle">
+      IDENTITY ENGINE // BURGUNDY SPEC v2.4
+    </text>
+  </g>
+</svg>
